@@ -12,4 +12,3 @@ function updatePlaylist(obj, key, value) {
 function removes(obj, key) {
   delete obj.key;
 }
-
