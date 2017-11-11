@@ -10,7 +10,6 @@ function updatePlaylist(obj, key, value) {
 
 // creates a function that removes artistName from the object, playlist
 function removeFromPlaylist(obj, key) {
- get = obj.key;
-  delete obj.key;
+  delete key;
   return obj;
 }
